@@ -1,0 +1,1088 @@
+Log File D:\Qoonitah Aprilia_12030122140225\Qoonitah Aprilia_12030122140225.log Opened at 13:02:23 on 05-Jun-2025
+@ IMPORT OPENEXCEL TO Inventory FILE "Inventory.xlsx" TABLE "Inventory" SERVER "LOCAL" FLAT "Inventory.FIL" 
+@ OPEN Inventory TABLE 0
+  6 fields activated
+@ VERIFY FIELDS ALL ERRORLIMIT 20
+<<< Table Data:InventoryVERIFY >>>
+RecordFieldTypeContents (text)Contents (hex)
+
+13Cost_DateDATETIME          20 20 20 20 20 20 20 20 20 20 
+
+<<< Table End >>>
+  1 data validity errors detected
+@ LOCATE RECORD 13
+Located record 13
+@ GAPS ON Cost_Date PRESORT
+Presorting Primary data file.
+<<< Table Data:InventoryGAPS >>>
+Gap Start orGap EndNumber of
+Missing ItemMissing Items
+
+02-Jan-190006-Jan-202144201
+09-Jan-202111-Jan-20213
+13-Jan-202128-Jan-202116
+31-Jan-20211
+03-Feb-202106-Feb-20214
+08-Feb-202107-Mar-202128
+09-Mar-202127-Mar-202119
+29-Mar-202107-Apr-202110
+09-Apr-202115-Apr-20217
+17-Apr-202107-eiy-202121
+09-eiy-202103-Jun-202126
+05-Jun-202109-Jun-20215
+11-Jun-202112-Jun-20212
+14-Jun-202127-Jun-202114
+29-Jun-202129-Jul-202131
+31-Jul-202106-Aug-20217
+09-Aug-202112-Aug-20214
+14-Aug-202106-Sep-202124
+10-Sep-202111-Sep-20212
+14-Sep-202117-Sep-20214
+19-Sep-202127-Sep-20219
+02-Oct-202103-Oct-20212
+05-Oct-202106-Oct-20212
+09-Oct-20211
+11-Oct-202117-Oct-20217
+19-Oct-202120-Oct-20212
+22-Oct-202129-Oct-20218
+31-Oct-20211
+02-Nov-202108-Nov-20217
+10-Nov-202116-Nov-20217
+18-Nov-202128-Nov-202111
+30-Nov-202107-Dec-20218
+09-Dec-202117-Dec-20219
+19-Dec-202128-Dec-202110
+
+<<< Table End >>>
+  34 gaps detected
+@ GAPS ON Product_Number PRESORT
+Presorting Primary data file.
+<<< Table Data:InventoryGAPS >>>
+Gap Start orGap EndNumber of
+Missing ItemMissing Items
+
+1010271110102839129
+101028411011903916199
+101190411013441915379
+1013442110135059639
+101350611015514920089
+10155151101551599
+10155161101551699
+101551711020721952049
+102072211022661919399
+102266211031088984269
+1031089110311799909
+1031180110311989189
+1031199110551339239349
+105513411063113979799
+106311411063118949
+1063119110803759172569
+108037612390371113099951
+239037132394637142659
+239463732397304126669
+2397304324100311127269
+24100313241043113999
+24104313241065112199
+24106513241086112099
+24108613241121613549
+24112163241213319169
+24121333241287117379
+241287132412881199
+2412881324128931119
+24128933241305711639
+24130573241331112539
+24133113241393716259
+2413937324140031659
+24140033241448114779
+241448132418843143619
+24188433241952616829
+24195263300303225835060
+3003032430302302271979
+3030230430302902599
+3030290430303342439
+303033443030340259
+30303404303034129
+30303414303093725959
+303093743032166212289
+303216643032168219
+3032168430322302619
+30322304303248022499
+303248043032488279
+303248843036416239279
+303641643041255248389
+3041255430412752199
+3041275430412902149
+30412904304142821379
+304142843041431229
+3041431430934422520109
+30934424342550023320579
+34255004402200735965070
+40220075402249834909
+402249854022501329
+4022501540225933919
+4022593540226053119
+40226055402321936139
+40232195402402838089
+4024028540240663379
+4024066540240883219
+4024088540241313429
+4024131540241753439
+40241755402432231469
+40243225402470333809
+402470354027032323289
+402703254027035329
+40270355402760535699
+40276055402771531099
+402771555220451411927360
+52204516522045249
+52204526522088044279
+52208806522105441739
+5221054652484404273859
+52484406524844149
+52484416524844249
+52484426524844349
+524844365250400419569
+525040065253015426149
+5253015652720304190149
+5272030652720614309
+527206165277001449399
+52770016601003057330290
+60100307601003159
+601003176010033519
+601003376010035519
+60100357601020651709
+601020676010208519
+60102087601020959
+60102097601021059
+60102107601021159
+601021176011227510159
+601122776011229519
+601122976011235559
+601123576020030587949
+602003076021706516759
+60217067602214954429
+60221497602215059
+6022150760221675169
+60221677701041769882500
+7010417870104326149
+701043287010434619
+701043487010437629
+701043787010439619
+7010439870104656259
+701046587010467619
+70104678801008179996140
+8010081980101017199
+80101019801026171599
+80102619801026279
+8010262980102917289
+80102919801062173299
+801062198012343717219
+8012343980123937499
+801239398012396729
+8012396980124517549
+80124519801260071489
+801260098012605749
+8012605980126307249
+8012630980435437309129
+804354398051277777339
+8051277980935297422519
+8093529980935427129
+80935429809387473319
+8093874980938997249
+80938999900100109071012
+900100129006959059579
+900695929008100011409
+9008100290501050420049
+9050105290501540489
+90501542905015509
+90501552905040602509
+9050406290504760699
+90504762905063301569
+90506332905078101479
+905078129050784029
+90507842905078509
+9050785290508190339
+90508192905095601369
+9050956290509930369
+905099329050998049
+905099829058407174090
+90584073905853211249
+905853239059991114589
+905999139066961069698
+90669612937884103118799
+9378841213030560236517191
+13030560418012215749816554
+
+<<< Table End >>>
+  151 gaps detected
+@ DUPLICATES ON Product_Number PRESORT
+Presorting Primary data file.
+  0 duplicates detected
+@ OPEN Inventory
+Closing Table Inventory (Table 0) and all active fields
+  6 fields activated
+@ TOTAL FIELDS Inventory_Cost
+<<< Table Data:InventoryTOTAL >>>
+Field NameTotal
+
+Inventory_Cost320,557,500
+
+<<< Table End >>>
+@ STATISTICS ON ALL NUMBER 5
+<<< Table Data:InventorySTATISTICSCost_Date >>>
+Field: Cost_DateNumberTotalAverage
+
+Valid15104-Aug-2021
+Invalid0
+Blank1
+Weekends47
+Range356 Days 
+
+<<< Table End >>>
+<<< Table Data:InventorySORTCost_Date:Cost_Date >>>
+HighestLowest
+
+29-Dec-202107-Jan-2021
+29-Dec-202107-Jan-2021
+29-Dec-202107-Jan-2021
+29-Dec-202107-Jan-2021
+18-Dec-202107-Jan-2021
+
+<<< Table End >>>
+<<< Table Data:InventorySTATISTICSQuantitiy >>>
+Field: QuantitiyNumberTotalAverage
+
+Positive1493,84226
+Zeros1
+Negative2-2-1
+Totals1523,84025
+Abs Value3,844
+Range50
+
+<<< Table End >>>
+<<< Table Data:InventorySORTQuantitiy:Quantitiy >>>
+HighestLowest
+
+49-1
+48-1
+480
+471
+473
+
+<<< Table End >>>
+<<< Table Data:InventorySTATISTICSCost_per_unit >>>
+Field: Cost_per_unitNumberTotalAverage
+
+Positive15212,795,00084,178
+Zeros0
+Negative000
+Totals15212,795,00084,178
+Abs Value12,795,000
+Range65,000
+
+<<< Table End >>>
+<<< Table Data:InventorySORTCost_per_unit:Cost_per_unit >>>
+HighestLowest
+
+110,00045,000
+110,00045,000
+110,00045,000
+110,00045,000
+110,00045,000
+
+<<< Table End >>>
+<<< Table Data:InventorySTATISTICSInventory_Cost >>>
+Field: Inventory_CostNumberTotalAverage
+
+Positive149320,757,5002,152,735
+Zeros1
+Negative2-200,000-100,000
+Totals152320,557,5002,108,931
+Abs Value320,957,500
+Range5,160,000
+
+<<< Table End >>>
+<<< Table Data:InventorySORTInventory_Cost:Inventory_Cost >>>
+HighestLowest
+
+5,060,000-100,000
+4,950,000-100,000
+4,950,0000
+4,950,000100,000
+4,900,000150,000
+
+<<< Table End >>>
+@ SET FILTER TO Quantitiy=-1
+@ IMPORT OPENEXCEL TO Cash_GL FILE "Cash GL.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Cash GL.FIL" 
+@ OPEN Cash_GL TABLE 1
+  7 fields activated
+@ OPEN Cash_GL TABLE 1
+Closing Table Cash_GL (Table 1) and all active fields
+  7 fields activated
+@ VERIFY FIELDS ALL ERRORLIMIT 20
+  0 data validity errors detected
+@ OPEN Cash_GL TABLE 1
+Closing Table Cash_GL (Table 1) and all active fields
+  7 fields activated
+@ GAPS ON Voucher_Number PRESORT
+Presorting Primary data file.
+<<< Table Data:Cash_GLGAPS >>>
+Gap Start orGap EndNumber of
+Missing ItemMissing Items
+
+12100021000
+
+<<< Table End >>>
+  1 gaps detected
+@ DUPLICATES ON Voucher_Number PRESORT
+Presorting Primary data file.
+  0 duplicates detected
+@ EXTRACT
+Enter the output Table name
+Enter the output Table name
+@ EXTRACT FIELDS Amount_Credit TO "Otorisasi_Level_1" OPEN IF Between( Amount_Credit , 20000000, 50000000)
+  69 of 100 met the test: Between( Amount_Credit , 20000000, 50000000)
+  Extraction to Table Otorisasi_Level_1.fil is complete
+  69 records produced
+@ OPEN Otorisasi_Level_1 TABLE 1
+Closing Table Cash_GL (Table 1) and all active fields
+  1 fields activated
+@ EXTRACT FIELDS Amount_Credit TO "Otorisasi_Level_2" OPEN IF Between( Amount_Credit , 50000000, 100000000)
+  0 of 69 met the test: Between( Amount_Credit , 50000000, 100000000)
+  Extraction to Table Otorisasi_Level_2.fil is complete
+  0 records produced
+@ OPEN Otorisasi_Level_2 TABLE 1
+Closing Table Otorisasi_Level_1 (Table 1) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Level_2 TABLE 1
+Closing Table Otorisasi_Level_2 (Table 1) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Level_2 TABLE 1
+Closing Table Otorisasi_Level_2 (Table 1) and all active fields
+  1 fields activated
+@ CLOSE
+Closing Table Otorisasi_Level_2 (Table 1) and all active fields
+@ SET TABLE Inventory
+@ DELETE FORMAT Otorisasi_Level_2
+Data file 'D:\Qoonitah Aprilia_12030122140225\Otorisasi_Level_2.fil' deleted.
+Format 'Otorisasi_Level_2' deleted.
+View 'Otorisasi_Level_2' deleted.
+@ OPEN Otorisasi_Level_1
+Closing Table Inventory (Table 0) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Level_1
+Closing Table Otorisasi_Level_1 (Table 0) and all active fields
+  1 fields activated
+@ CLOSE
+Closing Table Otorisasi_Level_1 (Table 0) and all active fields
+@ DELETE FORMAT Otorisasi_Level_1
+Data file 'D:\Qoonitah Aprilia_12030122140225\Otorisasi_Level_1.fil' deleted.
+Format 'Otorisasi_Level_1' deleted.
+View 'Otorisasi_Level_1' deleted.
+@ OPEN Cash_GL
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "Otorisasi_Level_1" OPEN IF Between( Amount_Credit , 20000000, 50000000)
+  69 of 100 met the test: Between( Amount_Credit , 20000000, 50000000)
+  Extraction to Table Otorisasi_Level_1.fil is complete
+  69 records produced
+@ OPEN Otorisasi_Level_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS Amount_Credit TO "Otorisasi_Level_2" OPEN IF Between( Amount_Credit , 50000000, 100000000)
+  0 of 69 met the test: Between( Amount_Credit , 50000000, 100000000)
+  Extraction to Table Otorisasi_Level_2.fil is complete
+  0 records produced
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_1 (Table 0) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+  1 fields activated
+@ CLOSE
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+@ DELETE FORMAT Otorisasi_Level_2
+Data file 'D:\Qoonitah Aprilia_12030122140225\Otorisasi_Level_2.fil' deleted.
+Format 'Otorisasi_Level_2' deleted.
+View 'Otorisasi_Level_2' deleted.
+@ OPEN Otorisasi_Level_1
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Level_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Level_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "Otorisasi_Level_2" OPEN IF Between( Amount_Credit , 50000000, 100000000)
+  0 of 69 met the test: Between( Amount_Credit , 50000000, 100000000)
+  Extraction to Table Otorisasi_Level_2.fil is complete
+  0 records produced
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+  7 fields activated
+@ CLOSE
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+@ DELETE FORMAT Otorisasi_Level_2
+Data file 'D:\Qoonitah Aprilia_12030122140225\Otorisasi_Level_2.fil' deleted.
+Format 'Otorisasi_Level_2' deleted.
+View 'Otorisasi_Level_2' deleted.
+@ OPEN Otorisasi_Level_1
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "Otorisasi_Level_2" OPEN IF Between( Amount_Credit, 50000000, 100000000)
+  0 of 69 met the test: Between( Amount_Credit, 50000000, 100000000)
+  Extraction to Table Otorisasi_Level_2.fil is complete
+  0 records produced
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Level_2
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+  7 fields activated
+@ CLOSE
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+@ DELETE FORMAT Otorisasi_Level_2
+Data file 'D:\Qoonitah Aprilia_12030122140225\Otorisasi_Level_2.fil' deleted.
+Format 'Otorisasi_Level_2' deleted.
+View 'Otorisasi_Level_2' deleted.
+@ OPEN Otorisasi_Level_1
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Level_1 (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "Otorisasi_Level_2" OPEN IF Between( Amount_Credit , 50000000, 100000000)
+  2 of 100 met the test: Between( Amount_Credit , 50000000, 100000000)
+  Extraction to Table Otorisasi_Level_2.fil is complete
+  2 records produced
+@ OPEN Otorisasi_Level_2
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Level_2 (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "Otorisasi_Level_3" OPEN IF Amount_Credit > 100000000
+  1 of 100 met the test: Amount_Credit > 100000000
+  Extraction to Table Otorisasi_Level_3.fil is complete
+  1 records produced
+@ OPEN Otorisasi_Level_3
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Level_3 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+Missing closing string delimiter
+Missing closing string delimiter
+Missing closing string delimiter
+Missing closing string delimiter
+Missing closing string delimiter
+Missing closing string delimiter
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ CLASSIFY ON  Status_Control ACCUMULATE Amount_Credit TOP ALL
+<<< Table Data:Cash_GLCLASSIFYStatus_Control >>>
+Page ...   1                                         05-Jun-2025  14:02:38
+Produced with Arbutus Analyzer by: Universitas Diponegoro, LabAkt06
+
+Status_Control   CountPercent of CountPercent of FieldAmount_Credit
+
+Level 1             69 69.00% 81.79%$2406,342,244 
+None                28 28.00% 11.38%$334,862,928 
+Level 2              2  2.00%  3.43%$100,826,357 
+Level 3              1  1.00%  3.41%$100,200,000 
+
+                   100100.00%100.00%$2942,231,529 
+
+<<< Table End >>>
+  4 records produced
+@ IMPORT OPENEXCEL TO AccountsReceivable FILE "AR.xlsx" TABLE "AccountsReceivable" SERVER "LOCAL" FLAT "AccountsReceivable.FIL" 
+@ OPEN AccountsReceivable TABLE 1
+  4 fields activated
+@ OPEN AccountsReceivable TABLE 1
+Closing Table AccountsReceivable (Table 1) and all active fields
+  4 fields activated
+@ VERIFY FIELDS CustomerNo ERRORLIMIT 20
+  0 data validity errors detected
+@ OPEN AccountsReceivable TABLE 1
+Closing Table AccountsReceivable (Table 1) and all active fields
+  4 fields activated
+@ DUPLICATES ON CustomerNo PRESORT
+Presorting Primary data file.
+<<< Table Data:AccountsReceivableDUPLICATESCCustomerNo >>>
+CustomerNoCount
+
+0515932
+0560162
+06500337
+1764376
+2020282
+2220064
+2305757
+2580242
+26200133
+3010372
+37600518
+4786043
+50165728
+5135743
+51637243
+5180088
+64146411
+7846472
+7954013
+7973522
+81100224
+8124654
+8360047
+8780352
+92500730
+9380104
+
+<<< Table End >>>
+  263 duplicates detected
+@ GAPS ON CustomerNo PRESORT
+Presorting Primary data file.
+<<< Table Data:AccountsReceivableGAPS >>>
+Gap Start orGap EndNumber of
+Missing ItemMissing Items
+
+51594560154422
+56017650028986
+650049762632623
+9762811323515608
+11323717643663200
+17643820202725590
+20202922200519977
+2220072305748568
+23057625802327448
+2580252620003976
+26200227709615095
+27709829739620299
+2973983010363639
+30103832916828131
+32917037600446835
+376006478603102598
+47860550165623052
+50165851357311916
+5135755163712797
+5163735180071635
+51800953518817180
+53519056226927080
+56227164146379193
+641465778087136623
+7780897846466558
+78464879540010753
+7954027973511950
+79735381100113649
+8110038124641462
+81246683600323538
+83600586903233028
+8690348780349001
+87803692500646971
+92500893800913002
+93801199440256392
+
+<<< Table End >>>
+  35 gaps detected
+@ AGE ON DueDate CUTOFF 20201005 INTERVAL 0,31,61,91,121,151,181,10000 ACCUMULATE Amount
+
+  <<< AGE over 0-> 10,000 >>>
+  >>> Minimum encountered was -483
+  >>> Maximum encountered was -127
+<<< Table Data:AccountsReceivableAGEDueDate!20201005 >>>
+Page ...   1                                         05-Jun-2025  14:15:20
+Produced with Arbutus Analyzer by: Universitas Diponegoro, LabAkt06
+
+DueDate   CountPercent of CountPercent of Field      Amount
+
+-483 -> -1                       299100.00%100.00%$200,127,050 
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           0  0.00%  0.00%
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                 299100.00%100.00%$200,127,050 
+
+<<< Table End >>>
+@ OPEN AccountsReceivable TABLE 1
+Closing Table AccountsReceivable (Table 1) and all active fields
+  4 fields activated
+@ IMPORT OPENEXCEL TO AP_Trans_2021 FILE "Account Payable.xlsx" TABLE "AP_Trans_2021" SERVER "LOCAL" FLAT "AP_Trans_2021.FIL" 
+@ IMPORT OPENEXCEL TO VendorMaster FILE "Account Payable.xlsx" TABLE "VendorMaster" SERVER "LOCAL" FLAT "VendorMaster.FIL" 
+@ IMPORT OPENEXCEL TO Cash_Disebursement FILE "Cash Disbursement.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Cash_Disebursement.FIL" 
+@ OPEN Cash_Disebursement TABLE 2
+  4 fields activated
+@ OPEN AP_Trans_2021 TABLE 2
+Closing Table Cash_Disebursement (Table 2) and all active fields
+  6 fields activated
+@ OPEN AP_Trans_2021 TABLE 2
+Closing Table AP_Trans_2021 (Table 2) and all active fields
+  6 fields activated
+@ OPEN Cash_Disebursement SECONDARY
+  4 fields activated
+@ JOIN UNMATCHED PKEY Invoice_Amount FIELDS ALL SKEY Amount_Credit TO "Account Payable" OPEN PRESORT SECSORT
+Presorting Primary data file.
+Presorting Secondary data file.
+  28 records produced
+  99 records bypassed
+  Extraction to Table Account Payable.fil is complete
+@ OPEN Account_Payable TABLE 2
+Closing Table AP_Trans_2021 (Table 2) and all active fields
+  6 fields activated
+@ TOTAL FIELDS Invoice_Amount
+<<< Table Data:Account_PayableTOTAL >>>
+Field NameTotal
+
+Invoice_Amount155,267,110
+
+<<< Table End >>>
+@ CLASSIFY ON  Invoice_No TOP 20
+<<< Table Data:Account_PayableCLASSIFYInvoice_No >>>
+Page ...   1                                         05-Jun-2025  14:29:37
+Produced with Arbutus Analyzer by: Universitas Diponegoro, LabAkt06
+
+Invoice_No   CountPercent of Count
+
+10650602         1  3.57%
+10657163         1  3.57%
+2275301          1  3.57%
+232162           1  3.57%
+232556           1  3.57%
+237536           1  3.57%
+237541           1  3.57%
+239388           1  3.57%
+4371005          1  3.57%
+4371OO5          1  3.57%
+4374343          1  3.57%
+437571           1  3.57%
+49540141         1  3.57%
+49540683         1  3.57%
+49540714         1  3.57%
+49545765         1  3.57%
+49545947         1  3.57%
+49548491         1  3.57%
+517506           1  3.57%
+519383           1  3.57%
+5518912          1  3.57%
+5754226          1  3.57%
+5757634          1  3.57%
+5758296          1  3.57%
+69469082         1  3.57%
+9835799          1  3.57%
+9836021          1  3.57%
+9836527          1  3.57%
+
+                28100.00%
+
+<<< Table End >>>
+  28 records produced
+@ OPEN VendorMaster SECONDARY
+Closing Table Cash_Disebursement (Secondary) and all active fields
+  4 fields activated
+@ JOIN PRIMARY PKEY Vendor_No FIELDS ALL SKEY Vendor_No WITH Vendor_Name TO "AP with vendor name" OPEN PRESORT SECSORT
+Harmonizing Join keys
+Presorting Primary data file.
+Presorting Secondary data file.
+  28 records produced
+  0 PRIMARY records unmatched and written with nulls
+  Extraction to Table AP with vendor name.fil is complete
+@ OPEN AP_with_vendor_name TABLE 2
+Closing Table Account_Payable (Table 2) and all active fields
+  7 fields activated
+@ CLASSIFY ON Vendor_Name ACCUMULATE Invoice_Amount TOP 10
+<<< Table Data:AP_with_vendor_nameCLASSIFYVendor_Name >>>
+Page ...   1                                         05-Jun-2025  14:36:13
+Produced with Arbutus Analyzer by: Universitas Diponegoro, LabAkt06
+
+Vendor_Name   CountPercent of CountPercent of FieldInvoice_Amount
+
+CV Maya Pada                    4 14.29% 14.35%$22,286,900 
+CV Segar Bugar                  3 10.71% 11.06%$17,170,700 
+Bapak Rajiman Sunarto           3 10.71% 10.83%$16,813,200 
+Bumdes Lerep                    2  7.14%  7.40%$11,490,100 
+Bumdes Kreo                     2  7.14%  7.30%$11,327,400 
+Bapak Ong  Wi Ha                2  7.14%  7.25%$11,257,000 
+JNT                             2  7.14%  7.18%$11,150,400 
+CV Maju Makmur                  2  7.14%  6.88%$10,677,600 
+PT Tetra packaging              2  7.14%  6.80%$10,555,210 
+Hadi Jaya                       1  3.57%  3.84%$5,955,400 
+
+                               23 82.14% 82.88%$128,683,910 
+
+<<< Table End >>>
+  10 records produced
+@ OPEN AP_with_vendor_name TABLE 2
+Closing Table AP_with_vendor_name (Table 2) and all active fields
+  7 fields activated
+@ AGE ON Invoice_Date CUTOFF 20211231 INTERVAL 0,31,61,91,121,151,181,10000 ACCUMULATE Invoice_Amount GROUPBY Vendor_Name PRESORT
+Presorting Primary data file.
+Vendor_Name: Arizona Packaging        
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Arizona Packaging        ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            1100.00%100.00%$5,574,300 
+31 -> 60                           0  0.00%  0.00%
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   1100.00%100.00%$5,574,300 
+
+<<< Table End >>>
+Vendor_Name: Bapak Ong  Wi Ha         
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Bapak Ong  Wi Ha         ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           2100.00%100.00%$11,257,000 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   2100.00%100.00%$11,257,000 
+
+<<< Table End >>>
+Vendor_Name: Bapak Rajiman Sunarto    
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Bapak Rajiman Sunarto    ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            1 33.33% 34.84%$5,857,300 
+31 -> 60                           2 66.67% 65.16%$10,955,900 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   3100.00%100.00%$16,813,200 
+
+<<< Table End >>>
+Vendor_Name: Bumdes Kreo              
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Bumdes Kreo              ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           2100.00%100.00%$11,327,400 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   2100.00%100.00%$11,327,400 
+
+<<< Table End >>>
+Vendor_Name: Bumdes Lerep             
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Bumdes Lerep             ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            2100.00%100.00%$11,490,100 
+31 -> 60                           0  0.00%  0.00%
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   2100.00%100.00%$11,490,100 
+
+<<< Table End >>>
+Vendor_Name: CV Maju Makmur           
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='CV Maju Makmur           ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            2100.00%100.00%$10,677,600 
+31 -> 60                           0  0.00%  0.00%
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   2100.00%100.00%$10,677,600 
+
+<<< Table End >>>
+Vendor_Name: CV Maya Pada             
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='CV Maya Pada             ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            3 75.00% 76.97%$17,154,100 
+31 -> 60                           1 25.00% 23.03%$5,132,800 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   4100.00%100.00%$22,286,900 
+
+<<< Table End >>>
+Vendor_Name: CV Segar Bugar           
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='CV Segar Bugar           ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            1 33.33% 34.69%$5,956,100 
+31 -> 60                           2 66.67% 65.31%$11,214,600 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   3100.00%100.00%$17,170,700 
+
+<<< Table End >>>
+Vendor_Name: Cv Gunung Tandur         
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Cv Gunung Tandur         ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            1100.00%100.00%$5,106,200 
+31 -> 60                           0  0.00%  0.00%
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   1100.00%100.00%$5,106,200 
+
+<<< Table End >>>
+Vendor_Name: Gadjah Transportation    
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Gadjah Transportation    ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           1100.00%100.00%$5,151,900 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   1100.00%100.00%$5,151,900 
+
+<<< Table End >>>
+Vendor_Name: Hadi Jaya                
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Hadi Jaya                ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           1100.00%100.00%$5,955,400 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   1100.00%100.00%$5,955,400 
+
+<<< Table End >>>
+Vendor_Name: Hexagon Machine          
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Hexagon Machine          ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           1100.00%100.00%$5,293,800 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   1100.00%100.00%$5,293,800 
+
+<<< Table End >>>
+Vendor_Name: JNT                      
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='JNT                      ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            1 50.00% 47.51%$5,297,700 
+31 -> 60                           1 50.00% 52.49%$5,852,700 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   2100.00%100.00%$11,150,400 
+
+<<< Table End >>>
+Vendor_Name: Koperasi Kelapa Sejahtera
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='Koperasi Kelapa Sejahtera' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           1100.00%100.00%$5,457,000 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   1100.00%100.00%$5,457,000 
+
+<<< Table End >>>
+Vendor_Name: PT Tetra packaging       
+<<< Table Data:AP_with_vendor_nameAGEInvoice_Date!20211231Vendor_Name='PT Tetra packaging       ' >>>
+Invoice_Date   CountPercent of CountPercent of FieldInvoice_Amount
+
+0 -> 30                            1 50.00% 47.53%$5,016,400 
+31 -> 60                           1 50.00% 52.47%$5,538,810 
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                   2100.00%100.00%$10,555,210 
+
+<<< Table End >>>
+@ AGE ON Due_date CUTOFF 20211101 INTERVAL 0,31,61,91,121,151,181,10000 ACCUMULATE Vendor_No
+
+  <<< AGE over 0-> 10,000 >>>
+  >>> Minimum encountered was -119
+  >>> Maximum encountered was -65
+<<< Table Data:AP_with_vendor_nameAGEDue_date!20211101 >>>
+Page ...   1                                         05-Jun-2025  14:41:00
+Produced with Arbutus Analyzer by: Universitas Diponegoro, LabAkt06
+
+Due_date   CountPercent of CountPercent of Field   Vendor_No
+
+-119 -> -1                        28100.00%100.00%$280,334 
+0 -> 30                            0  0.00%  0.00%
+31 -> 60                           0  0.00%  0.00%
+61 -> 90                           0  0.00%  0.00%
+91 -> 120                          0  0.00%  0.00%
+121 -> 150                         0  0.00%  0.00%
+151 -> 180                         0  0.00%  0.00%
+181 -> 10,000                      0  0.00%  0.00%
+
+                                  28100.00%100.00%$280,334 
+
+<<< Table End >>>
+@ SET FILTER TO age(Due_date,"20211101")>=-119  AND age(Due_date,"20211101")<=-1
+@ OPEN Account_Payable TABLE 2
+Closing Table AP_with_vendor_name (Table 2) and all active fields
+  6 fields activated
+@ DUPLICATES ON Invoice_No PRESORT
+Presorting Primary data file.
+  0 duplicates detected
+@ OPEN AP_Trans_2021 TABLE 2
+Closing Table Account_Payable (Table 2) and all active fields
+  6 fields activated
+@ DUPLICATES ON Invoice_No PRESORT
+Presorting Primary data file.
+<<< Table Data:AP_Trans_2021DUPLICATESCInvoice_No >>>
+Invoice_NoCount
+
+519383  2
+8753401 2
+
+<<< Table End >>>
+  2 duplicates detected
+@ OPEN Inventory TABLE 2
+Closing Table AP_Trans_2021 (Table 2) and all active fields
+  6 fields activated
+@ OPEN VendorMaster TABLE 2
+Closing Table VendorMaster (Secondary) and all active fields
+@ CLOSE SECONDARY
+Closing Table Inventory (Table 2) and all active fields
+  4 fields activated
+@ OPEN Otorisasi_Level_3 TABLE 2
+Closing Table VendorMaster (Table 2) and all active fields
+  7 fields activated
+@ OPEN Account_Payable TABLE 2
+Closing Table Otorisasi_Level_3 (Table 2) and all active fields
+  6 fields activated
+@ OPEN Otorisasi_Level_2 TABLE 2
+Closing Table Account_Payable (Table 2) and all active fields
+  7 fields activated
+@ QUIT
+Closing Table Otorisasi_Level_2 (Table 2) and all active fields
+Closing Table AccountsReceivable (Table 1) and all active fields
+@ SET TABLE Cash_GL
+@ QUIT
+Closing Table Cash_GL (Table 0) and all active fields
+Log File D:\Qoonitah Aprilia_12030122140225\Qoonitah Aprilia_12030122140225.log Opened at 14:46:40 on 05-Jun-2025
+@ OPEN Cash_GL
+  8 fields activated
+@ QUIT
+Closing Table Cash_GL (Table 0) and all active fields
+Log File D:\Qoonitah Aprilia_12030122140225\Qoonitah Aprilia_12030122140225.log Opened at 12:10:17 on 11-Jun-2025
+@ OPEN Cash_GL
+  8 fields activated
+@ OPEN VendorMaster
+Closing Table Cash_GL (Table 0) and all active fields
+  4 fields activated
+@ OPEN VendorMaster
+Closing Table VendorMaster (Table 0) and all active fields
+  4 fields activated
+@ IMPORT OPENEXCEL TO Fix_Asset FILE "Fixed Asset with calculation.xlsx" TABLE "Sheet2" SERVER "LOCAL" FLAT "Fix Asset.FIL" 
+@ OPEN Fix_Asset TABLE 1
+  12 fields activated
+@ IMPORT OPENEXCEL TO Arbutus_dan_Fix_Asset FILE "Arbutus data Fixed Asset.xlsx" TABLE "Sheet2" SERVER "LOCAL" FLAT "Arbutus dan Fix Asset.FIL" 
+@ OPEN Arbutus_dan_Fix_Asset TABLE 2
+  12 fields activated
+@ IMPORT OPENEXCEL TO AccountsReceivable2 FILE "AR.xlsx" TABLE "AccountsReceivable" SERVER "LOCAL" FLAT "AccountsReceivable2.FIL" 
+@ OPEN AccountsReceivable2 TABLE 3
+  4 fields activated
+@ OPEN AccountsReceivable TABLE 3
+Closing Table AccountsReceivable2 (Table 3) and all active fields
+  4 fields activated
+@ OPEN AccountsReceivable TABLE 3
+Closing Table AccountsReceivable (Table 3) and all active fields
+  4 fields activated
+@ OPEN AccountsReceivable2 TABLE 3
+Closing Table AccountsReceivable (Table 3) and all active fields
+  4 fields activated
+@ OPEN AccountsReceivable2 TABLE 3
+Closing Table AccountsReceivable2 (Table 3) and all active fields
+  4 fields activated
+@ OPEN AccountsReceivable TABLE 3
+Closing Table AccountsReceivable2 (Table 3) and all active fields
+  4 fields activated
+@ OPEN AccountsReceivable2 TABLE 3
+Closing Table AccountsReceivable (Table 3) and all active fields
+  4 fields activated
+@ OPEN Otorisasi_Level_3 TABLE 3
+Closing Table AccountsReceivable2 (Table 3) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Level_2 TABLE 3
+Closing Table Otorisasi_Level_3 (Table 3) and all active fields
+  7 fields activated
+@ OPEN AccountsReceivable TABLE 3
+Closing Table Otorisasi_Level_2 (Table 3) and all active fields
+  4 fields activated
+@ OPEN Account_Payable TABLE 3
+Closing Table AccountsReceivable (Table 3) and all active fields
+  6 fields activated
+@ OPEN AccountsReceivable2 TABLE 3
+Closing Table Account_Payable (Table 3) and all active fields
+  4 fields activated
+@ CLOSE
+Closing Table AccountsReceivable2 (Table 3) and all active fields
+@ SET TABLE Arbutus_dan_Fix_Asset
+@ DELETE FORMAT AccountsReceivable2
+Data file 'D:\Qoonitah Aprilia_12030122140225\AccountsReceivable2.FIL' deleted.
+Format 'AccountsReceivable2' deleted.
+View 'AccountsReceivable2' deleted.

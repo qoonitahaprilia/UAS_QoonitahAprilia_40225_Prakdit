@@ -1,0 +1,19 @@
+FILE_NAME Otorisasi_Level_1.fil
+~Table Imported via OpenXML Excel 05-Jun-2025 13:15:23
+~.05-Jun-2025 13:15:43 _ IMPORT OPENEXCEL TO Cash_GL FILE "Cash GL.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Cash GL.FIL" 
+~.05-Jun-2025 13:27:36 Cash_GL EXTRACT FIELDS ALL TO "Otorisasi_Level_1" OPEN IF Between( Amount_Credit , 20000000, 50000000)
+~Input : Records:100         Control Total:0                    
+~Output: Records:69          Control Total:0                    
+[FILESIZE] 69
+[LASTVIEW] "Otorisasi_Level_1"
+[SERVER] LOCAL
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 55
+Posting_Date                    DATETIME    1  10   PICTURE "yyyy-mm-dd"  
+Voucher_Number                  PRINT      11   5 0 DECIMAL '.'  
+Voucher__Description            UTF8       16  10    
+Account_Number                  PRINT      26   3 0 DECIMAL '.'  
+Amount_Debit                    PRINT      29   9 0 DECIMAL '.'  
+Amount_Credit                   PRINT      38   9 0 DECIMAL '.'  
+Balance                         PRINT      47   9 0 DECIMAL '.'  

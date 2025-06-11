@@ -1,0 +1,15 @@
+FILE_NAME AccountsReceivable.FIL
+~Table Imported via OpenXML Excel 05-Jun-2025 14:07:10
+~.05-Jun-2025 14:07:23 _ IMPORT OPENEXCEL TO AccountsReceivable FILE "AR.xlsx" TABLE "AccountsReceivable" SERVER "LOCAL" FLAT "AccountsReceivable.FIL" 
+[FILESIZE] 299
+[LASTVIEW] "AccountsReceivable"
+[REFRESH] OPENEXCEL FILE "AR.xlsx" TABLE "AccountsReceivable" SERVER "LOCAL" FLAT "AccountsReceivable.FIL"
+[SERVER] LOCAL
+[DELIMITED] 0 9 0
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 89
+InvoiceDate                     DATETIME    1  10   PICTURE "yyyy-mm-dd" NATIVE [D]  
+CustomerNo                      UTF8       11   6   NATIVE [D]  
+DueDate                         DATETIME   17  10   PICTURE "yyyy-mm-dd" NATIVE [D]  
+Amount                          PRINT      27   7 0 DECIMAL '.' NATIVE [D]  

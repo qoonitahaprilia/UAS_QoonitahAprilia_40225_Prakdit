@@ -1,0 +1,25 @@
+FILE_NAME AP with vendor name.fil
+~Table Imported via OpenXML Excel 05-Jun-2025 14:19:30
+~.05-Jun-2025 14:19:30 _ IMPORT OPENEXCEL TO AP_Trans_2021 FILE "Account Payable.xlsx" TABLE "AP_Trans_2021" SERVER "LOCAL" FLAT "AP_Trans_2021.FIL" 
+~.05-Jun-2025 14:24:32 AP_Trans_2021 OPEN Cash_Disebursement SECONDARY
+~.05-Jun-2025 14:24:32 AP_Trans_2021 JOIN UNMATCHED PKEY Invoice_Amount FIELDS ALL SKEY Amount_Credit TO "Account Payable" OPEN PRESORT SECSORT
+~Input : Records:127         Control Total:0                    
+~Output: Records:28          Control Total:0                    
+~.05-Jun-2025 14:34:16 Account_Payable OPEN VendorMaster SECONDARY
+~.05-Jun-2025 14:34:16 Account_Payable JOIN PRIMARY PKEY Vendor_No FIELDS ALL SKEY Vendor_No WITH Vendor_Name TO "AP with vendor name" OPEN PRESORT SECSORT
+~Input : Records:28          Control Total:0                    
+~Output: Records:28          Control Total:0                    
+[FILESIZE] 28
+[LASTVIEW] "AP_with_vendor_name"
+[FILTER] age(Due_date,"20211101")>=-119  AND age(Due_date,"20211101")<=-1
+[SERVER] LOCAL
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 76
+Vendor_No                       PRINT       1   5 0 DECIMAL '.'  
+Invoice_No                      UTF8        6   8    
+Invoice_Date                    DATETIME   14  10   PICTURE "yyyy-mm-dd"  
+Due_date                        DATETIME   24  10   PICTURE "yyyy-mm-dd"  
+Prodno                          UTF8       34   9    
+Invoice_Amount                  PRINT      43   9 0 DECIMAL '.'  
+Vendor_Name                     UTF8       52  25    

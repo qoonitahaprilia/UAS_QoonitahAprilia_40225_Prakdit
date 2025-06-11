@@ -1,0 +1,15 @@
+FILE_NAME Cash_Disebursement.FIL
+~Table Imported via OpenXML Excel 05-Jun-2025 14:20:29
+~.05-Jun-2025 14:21:20 _ IMPORT OPENEXCEL TO Cash_Disebursement FILE "Cash Disbursement.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Cash_Disebursement.FIL" 
+[FILESIZE] 99
+[LASTVIEW] "Cash_Disebursement"
+[REFRESH] OPENEXCEL FILE "Cash Disbursement.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Cash_Disebursement.FIL"
+[SERVER] LOCAL
+[DELIMITED] 0 9 0
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 108
+Posting_Date                    DATETIME    1  10   PICTURE "yyyy-mm-dd" NATIVE [D]  
+Voucher_Number                  PRINT      11   5 0 DECIMAL '.' NATIVE [D]  
+Paid_to_vendor                  PRINT      16   5 0 DECIMAL '.' NATIVE [D]  
+Amount_Credit                   PRINT      21   9 0 DECIMAL '.' NATIVE [D]  

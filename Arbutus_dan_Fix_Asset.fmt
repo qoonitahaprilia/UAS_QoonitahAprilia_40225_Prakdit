@@ -1,0 +1,22 @@
+FILE_NAME Arbutus dan Fix Asset.FIL
+~Table Imported via OpenXML Excel 11-Jun-2025 12:15:04
+~.11-Jun-2025 12:15:22 _ IMPORT OPENEXCEL TO Arbutus_dan_Fix_Asset FILE "Arbutus data Fixed Asset.xlsx" TABLE "Sheet2" SERVER "LOCAL" FLAT "Arbutus dan Fix Asset.FIL" 
+[FILESIZE] 18
+[REFRESH] OPENEXCEL FILE "Arbutus data Fixed Asset.xlsx" TABLE "Sheet2" SERVER "LOCAL" FLAT "Arbutus dan Fix Asset.FIL" 
+[SERVER] LOCAL
+[DELIMITED] 0 9 0
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 219
+No                              PRINT       1   2 0 WIDTH 5 DECIMAL '.' NATIVE [D]  
+Nama_dan_spesifikasi            UTF8        3  29   WIDTH 29 NATIVE [D]  
+Jenis_Aset                      UTF8       32  15   WIDTH 15 NATIVE [D]  
+Unit                            PRINT      47   1 0 WIDTH 4 DECIMAL '.' NATIVE [D]  
+Tanggal_Perolehan               PRINT      48   4 0 WIDTH 7 DECIMAL '.' NATIVE [D]  
+Harga_Perolehan                 PRINT      52   9 0 WIDTH 12 DECIMAL '.' NATIVE [D]  
+Tarif_Penyusutan                PRINT      61   5 3 WIDTH 6 DECIMAL '.' NATIVE [D]  
+Akumulasi_2020                  PRINT      66   8 0 WIDTH 11 DECIMAL '.' NATIVE [D]  
+Nilai_Buku2020                  PRINT      74   9 0 WIDTH 12 DECIMAL '.' NATIVE [D]  
+Penyusutan_2021                 PRINT      83   9 1 WIDTH 10 DECIMAL '.' NATIVE [D]  
+Akumulasi_2021                  PRINT      92   9 1 WIDTH 10 DECIMAL '.' NATIVE [D]  
+Nilai_Buku2021                  PRINT     101  10 1 WIDTH 11 DECIMAL '.' NATIVE [D]  

@@ -1,0 +1,22 @@
+FILE_NAME Fix Asset.FIL
+~Table Imported via OpenXML Excel 11-Jun-2025 12:13:44
+~.11-Jun-2025 12:14:40 _ IMPORT OPENEXCEL TO Fix_Asset FILE "Fixed Asset with calculation.xlsx" TABLE "Sheet2" SERVER "LOCAL" FLAT "Fix Asset.FIL" 
+[FILESIZE] 54
+[REFRESH] OPENEXCEL FILE "Fixed Asset with calculation.xlsx" TABLE "Sheet2" SERVER "LOCAL" FLAT "Fix Asset.FIL" 
+[SERVER] LOCAL
+[DELIMITED] 0 9 0
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 189
+DAFTAR__ASET_TETAP_DAN_INVENTARIS     UTF8        1  33   WIDTH 33 NATIVE [D]  
+F2                                    UTF8       34  24   WIDTH 24 NATIVE [D]  
+F3                                    UTF8       58  29   WIDTH 29 NATIVE [D]  
+F4                                    UTF8       87   4   WIDTH 4 NATIVE [D]  
+F5                                    UTF8       91  17   WIDTH 17 NATIVE [D]  
+F6                                    UTF8      108  15   WIDTH 15 NATIVE [D]  
+F7                                    UTF8      123  16   WIDTH 16 NATIVE [D]  
+F8                                    UTF8      139  10   WIDTH 10 NATIVE [D]  
+F9                                    UTF8      149  10   WIDTH 10 NATIVE [D]  
+F10                                   UTF8      159  10   WIDTH 10 NATIVE [D]  
+F11                                   UTF8      169  10   WIDTH 10 NATIVE [D]  
+F12                                   UTF8      179  10   WIDTH 10 NATIVE [D]  
